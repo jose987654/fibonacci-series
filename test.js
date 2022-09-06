@@ -26,4 +26,8 @@ describe("Fibonacci Function unit tests", () => {
   it("TEST 5", () => {
     assert.deepEqual(fibonacci(4),[0,1,1,2]);
   });
+  // Test 6:
+  it("TEST 6", () => {
+    assert.deepEqual(fibonacci(5),[0,1,1,2,3]);
+  });
 });
